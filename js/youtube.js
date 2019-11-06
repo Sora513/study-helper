@@ -1,3 +1,4 @@
+var playlistid="PLcdlKSgmp8IwMpM5GyfcxdpjobDWB8XE-"
 var playerReady = false;
 //IFrame Player API の読み込み
 var tag = document.createElement('script');
@@ -24,7 +25,7 @@ function onPlayerReady() {
     playerReady = true;
     ytPlayer.cuePlaylist({
         'listType': 'playlist',
-        'list': 'PLcdlKSgmp8IwMpM5GyfcxdpjobDWB8XE-',
+        'list': playlistid,
         'index': 0,
         'startSeconds': 0,
         'suggestedQuality': 'small',

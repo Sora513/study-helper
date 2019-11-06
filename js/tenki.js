@@ -1,9 +1,10 @@
 var city = "Nagoya,jp";
+var APIkey = "1d71d4e7374fd79b55fba5676fe3ddf7";
 var httpObj = new XMLHttpRequest();
 // openweathermapからJSONデータ取得
 function tenki() {
  
-httpObj.open("GET", "http://api.openweathermap.org/data/2.5/forecast?q=Nagoya,jp&cnt=8&appid=1d71d4e7374fd79b55fba5676fe3ddf7", true);
+httpObj.open("GET", "http://api.openweathermap.org/data/2.5/forecast?q=Nagoya,jp&cnt=8&appid="+APIkey, true);
 httpObj.onload = function () {
     var data = JSON.parse(this.responseText); // JSON形式データを変換
     console.log(data);
