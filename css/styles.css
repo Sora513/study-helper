@@ -1,0 +1,81 @@
+
+body{
+    background: rgb(30,30,30);
+    color:white;
+}
+
+#result{
+    font-size:20px;
+    position: absolute;
+    bottom:10%;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color:darkslategray;
+}
+#result p{
+    margin:0;
+    background-color: #ff7c5c;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}
+#time{
+    position:absolute;
+    font-size:30px;
+    left:5%;
+    top:5%;
+    margin-top:125px;
+}
+#time2{
+    position:absolute;
+    font-size:30px;
+    left:5%;
+    top:5%;
+    margin-top:160px;
+}
+#RTC{
+    font-family: sans-serif;
+    position:absolute;
+    left:50%;
+    top:50%;
+    font-size: 7em;
+    color: cyan;
+    margin:0;
+    transform: translate(-50%,-50%);
+}
+#player{
+    display: none;
+}
+
+
+button{
+    position: absolute;
+    font-size:50px;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #f7f7f7;
+  border-left: solid 18px #ff7c5c;/*左線*/
+  border-bottom:none;
+  border-right:none;
+  border-top:none;
+  color: #ff7c5c;/*文字色*/
+  font-weight: bold;
+}
+
+#music{
+    top:5%;
+    left:95%;
+    width:40%;
+    transform: translateX(-100%);
+}
+#timer{
+    top:5%;
+    left:5%;
+    width:40%;
+}
+td img{
+    width:100px;
+    height:100px;
+}
