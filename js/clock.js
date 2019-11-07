@@ -5,7 +5,7 @@
             if (num < 10) { ret = "0" + num; }
             else { ret = num; }
             return ret;
-        }
+        
         function showClock2() {
             var nowTime = new Date();
             var nowYear = nowTime.getFullYear();
