@@ -5,17 +5,17 @@ body{
 }
 
 #result{
-    font-size:20px;
+    font-size:23px;
     position: absolute;
     bottom:10%;
     left:50%;
     transform: translateX(-50%);
-    background-color: white;
-    color:darkslategray;
+    background-color:rgba(107,107,107,0.8);
+    color:#ffefef;
 }
 #result p{
     margin:0;
-    background-color: #ff7c5c;
+    background-color: rgba(255,124,92,0.8);
     color:black;
     font-weight: bold;
     text-align: center;
@@ -63,8 +63,8 @@ button{
   display: inline-block;
   padding: 0.5em 1em;
   text-decoration: none;
-  background: #f7f7f7;
-  border-left: solid 18px #ff7c5c;/*左線*/
+  background: rgba(247,247,247,0.8);
+  border-left: solid 18px rgba(255,124,92,0.8);/*左線*/
   border-bottom:none;
   border-right:none;
   border-top:none;
@@ -93,7 +93,7 @@ button{
 }
 #refresh:active{
     color:red;
-    border-left:solid 18px red;
+    border-left:solid 18px rgba(255,0,0,0.8);
 }
 td img{
     width:100px;

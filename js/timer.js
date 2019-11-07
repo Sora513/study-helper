@@ -26,8 +26,8 @@ $(function () {
             stat2 = true;
             $('#timer').text('計測中！');
             $('#timer').css({
-                "color": "red",
-                "border-left": "solid 18px red"
+                "color": "rgba(255,0,0,1.0)",
+                "border-left": "solid 18px rgba(255,0,0,0.8)"
             });
         } else {
             endtime = new Date();
@@ -35,8 +35,8 @@ $(function () {
             stat2 = false;
             $('#timer').text('勉強時間を計測');
             $('#timer').css({
-                "color": "#ff7c5c",
-                "border-left": "solid 18px #ff7c5c"
+                "color": "rgba(255,124,92,1.0)",
+                "border-left": "solid 18px rgba(255,124,92,0.8)"
             });
             spendtime2 = parseInt(spendtime) + parseInt(spendtime2);
             sh = Math.floor(spendtime2 / 1000 / 60 / 60);

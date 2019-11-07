@@ -41,16 +41,16 @@ $(function () {
                 stat = true;
                 $('#music').text('BGMを停止');
                 $('#music').css({
-                    "color": "red",
-                    "border-left":"solid 18px red"
+                    "color": "rgba(255,0,0,1.0)",
+                    "border-left":"solid 18px rgba(255,0,0,0.8)"
                 })
             } else {
                 ytPlayer.pauseVideo();
                 stat = false;
                 $('#music').text('BGMを再生');
                 $('#music').css({
-                    "color": "#ff7c5c",
-                    "border-left":"solid 18px #ff7c5c"
+                    "color": "rgba(255,124,92,1.0)",
+                    "border-left":"solid 18px rgba(255,124,92,0.8)"
                 })
             }
         }
@@ -61,8 +61,8 @@ $(function () {
                 stat = false;
                 $('#music').text('BGMを再生');
                 $('#music').css({
-                    "color": "#ff7c5c",
-                    "border-left":"solid 18px #ff7c5c"
+                    "color": "rgba(255,124,92,1.0)",
+                    "border-left":"solid 18px rgba(255,124,92,0.8)"
                 })
             
         }
