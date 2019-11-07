@@ -44,7 +44,6 @@ function init() {
     shape3.y = 400; // Y 座標 200px の位置に配置
     shape3.rotation = -90;
     stage.addChild(shape3); // 表示リストに追加
-    createjs.Ticker.setFPS(60);
     toween = function () {
 
         nowTime = new Date();
