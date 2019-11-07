@@ -55,4 +55,19 @@ $(function () {
             }
         }
     });
+    $('#refresh').click(function () {
+        if (playerReady) {
+                ytPlayer.pauseVideo();
+                stat = false;
+                $('#music').text('BGMを再生');
+                $('#music').css({
+                    "color": "#ff7c5c",
+                    "border-left":"solid 18px #ff7c5c"
+                })
+            
+        }
+        onPlayerReady();
+        
+})
+
 });

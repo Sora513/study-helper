@@ -83,6 +83,18 @@ button{
     left:5%;
     width:40%;
 }
+#refresh{
+    font-size: 30px;
+    top:5%;
+    left:95%;
+    width:20%;
+    transform:translateX(-100%);
+    margin-top:140px;
+}
+#refresh:active{
+    color:red;
+    border-left:solid 18px red;
+}
 td img{
     width:100px;
     height:100px;
