@@ -125,16 +125,15 @@ function init() {
             startAngle: startround3,
             endAngle: endround3
         }, 800, createjs.Ease.cubicInOut);
-
-
-        // Stageの描画を更新します
-        stage.update();
-        createjs.Ticker.addEventListener("tick", handleTick);
-
-        function handleTick() {
-            stage.update();
-        }
     }
 
     setInterval('toween()', 1000);
+
+    // Stageの描画を更新します
+    stage.update();
+    createjs.Ticker.addEventListener("tick", handleTick);
+
+    function handleTick() {
+        stage.update();
+    }
 }
