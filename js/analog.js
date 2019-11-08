@@ -131,6 +131,7 @@ function init() {
 
     // Stageの描画を更新します
     stage.update();
+    createjs.Ticker.framerate = 60;
     createjs.Ticker.addEventListener("tick", handleTick);
 
     function handleTick() {
