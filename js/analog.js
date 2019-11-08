@@ -5,10 +5,6 @@ function init() {
     // Stageオブジェクトを作成します
     var stage = new createjs.Stage("analog");
 
-    var nowTime = new Date();
-    var nowHour = set2fig(nowTime.getHours());
-    var nowMin = set2fig(nowTime.getMinutes());
-    var nowSec = set2fig(nowTime.getSeconds());
     var startround = 0;
     var endround = Math.PI * 2 / 60 * parseInt(nowSec);
     var startround2 = 0;
