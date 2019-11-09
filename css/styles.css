@@ -1,7 +1,9 @@
 
 body{
-    background: rgb(30,30,30);
+    background: rgb(26,26,26);
     color:white;
+    overflow: hidden;
+
 }
 
 #result{
@@ -12,6 +14,7 @@ body{
     transform: translateX(-50%);
     background-color:rgba(107,107,107,0.8);
     color:#ffefef;
+z-index: 5;
 }
 #result p{
     margin:0;
@@ -19,6 +22,7 @@ body{
     color:black;
     font-weight: bold;
     text-align: center;
+
 }
 #time{
     position:absolute;
@@ -43,6 +47,7 @@ body{
     color: cyan;
     margin:0;
     transform: translate(-50%,-50%);
+    z-index: 5;
 }
 #date{
     position:absolute;
@@ -51,6 +56,7 @@ body{
     text-decoration:none;
     left:20%;
     top:37%;
+    z-index: 5;
 }
 #player{
     display: none;
@@ -70,6 +76,7 @@ button{
   border-top:none;
   color: #ff7c5c;/*文字色*/
   font-weight: bold;
+  z-index: 5;
 }
 
 #music{
@@ -105,5 +112,13 @@ td img{
     left:50%;
     top:50%;
     transform:translateX(-50%) translateY(-50%);
+    z-index: 0;
+}
+
+#SAMPLE{
+    clip-path:polygon(40% 5%,60% 5%,60% 60%,40% 60%);
+position:absolute;
     z-index: -1;
+    left:-700px;
+    top:500px;
 }

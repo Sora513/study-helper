@@ -22,7 +22,8 @@
     <header>
     </header>
     <section>
-        <!--メイン-->
+        <div id ="main">
+                    <!--メイン-->
         <div id="player"></div>
         <div id="date">Have a nice day!</div>
         <button id="refresh">再読み込み</button>
@@ -34,7 +35,25 @@
         <button id="timer">勉強時間を記録</button>
         <div id = "result">天気情報を取得中です</div>
         </div>
+        <canvas id="SAMPLE" width="1880" height="1000">
+                このブラウザは
+                <code>&lt;canvas&lt;</code>要素をサポートしていません。
+            </canvas>
+            
+    </div>
+
         <canvas id="analog" width="800"height="800"></canvas>
+            <!-- Canvas -->
+    
+    <!-- Promise-polyfill -->
+    <script src = "https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js "> </script>
+    
+    <!-- Live2DCubismCore -->
+    <script src = "./Live2D/Core/live2dcubismcore.min.js"></script>
+
+    <!-- User's Script -->
+    <script src = "dist/index.js"></script>
+
     </section>
     <footer>
         <!--ふっだー-->
