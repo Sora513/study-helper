@@ -20,7 +20,7 @@ main.htmlを開くと実行できます。<br>
 デフォルトでは午前3時0分台に、合計時間のリセットを行っています。
 
 # 注意
-使用する際は**必ずtenki.jsのAPIkeyを自身のものに変更してください！**<br>
+使用する際は**必ずtenki.jsのAPIkeyを追加してください！**<br>
 [ここからOpenWeatherMapにサインアップして取得できます。](https://home.openweathermap.org/users/sign_up)<br>
 
 BGMは、Youtubeのプレイリストを参照しています。<br>
